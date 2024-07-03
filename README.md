@@ -1,2 +1,5 @@
-# Earnings-Prediction
-Earnings Prediction on SEC EDGAR Data Using Machine Learning
+* ### Marchine Learning Earnings Prediction on SEC EDGAR Data
+
+  	Developed a financial statements’ quarterly or annual directional prediction machine learning model (ML) using SEC’s EDGAR data. Main purpose of the research is to (1) contribute to the literature of financial and accounting prediction, and (2) provide a data mining and utilization technique to work with the mass database of EDGAR.
+  * <b>(1) Prediction:</b> The benchmark study used the same XBRL data and was able to outperform previous annual earnings prediction models significantly and performed with AUC/ROC of 67.52% to 68.66%. Our model, with added feature such as industry classification, feature engineering for time-series forecasting, and choice of quarterly or annual prediction was able to outperform the benchmark research model by significant degree with annual AUC/ROC of 76.4% and quarterly prediction with 82.28% - these are weighed average numbers since different industries have different predictive nature.
+  * <b>(2) Utilization:</b> Although significant amount of study has been conducted on the XBRL Data initiative of SEC including its validity and implications, its application in quantitative analysis seems to lack more attention. Therefore, this paper includes the Python source code for the prediction from data collection to machine learning model development, providing techniques to utilize the public database.
